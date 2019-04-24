@@ -1,1 +1,164 @@
-"Hello world" 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+
+    <style>
+    * {
+    /**gurantee the boder width is the same value you setted in width, 
+    is not herited*/
+    box-sizing: border-box;
+    }
+
+    header, section{
+    font-family: 'Coiny', cursive;
+       
+}
+
+header {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+h3{
+    
+    /**border: 1.5px solid black; 
+    margin: 10px 50px;*/
+    text-align: center;
+
+    font-size: 20px;
+    font-weight: lighter;
+
+    
+    width: 140px;
+    border: 2px solid black;
+
+    float: right;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    border-top: 0ch;
+    border-right: 0ch;
+    padding-top: 10px; 
+
+   
+
+    
+}
+
+#pink {
+    background-color: lightcoral;
+   
+
+}
+
+#red{
+    background-color: crimson;
+   
+}
+
+#yellow{
+    background-color: burlywood;
+  
+}
+
+section {
+    background-color: darkgray;
+    border: 2px solid black; 
+    width:95%;
+    margin-left: auto;
+    margin-right:auto;
+    height:190px;
+      
+    
+}
+
+section p{
+    font-weight: lighter;
+    font-size: 15px; 
+    width:95%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px;
+   
+  
+}
+
+.test, .test2 {
+    float:left;
+    height: 200px;
+}
+
+
+@media (min-width: 992px){
+    .test, .test2 {
+    width: 33%;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    
+   
+    .test{
+        width: 50%;
+    }
+    .test2{
+        width:100%;
+
+    }
+    .test2 section{
+        width:97.5%;
+    }
+}
+
+@media (max-width: 767px){
+   .test, .test2{
+       width:100%;
+   }
+}
+    
+</style>
+    <header> Our Menu</header>
+</head>
+
+
+
+<body>
+    
+    <div class ="test">
+        <section>
+            <h3 id ="yellow">Sushi</h3>
+            <p>how toL, I explain some common gotchas like why forgetting to set the width and height of the image can cause you trouble.
+               and you know this would happen, but you know you can fix it.
+            </p>
+        </section>
+    </div>
+
+    <div class= "test">
+    <section>
+            <h3 id="pink">Chicken</h3>
+            <p>Besides showing you how to display images in HTML, I explain some common gotchas like why forgetting to set the width and height of the image can cause you trouble.</p>
+            
+        </section>
+    </div>
+
+    <div class = "test2">
+        <section>
+            <h3 id= "red">Beef</h3>
+            <p>Besides is it beac its id io hu   showing you how to display images wing you how to display in HTML, and height of the image can cause you trouble
+                . have uhcegg huh</p>
+        </section>
+    </div>
+
+    
+   
+</body>
+
+</html>
